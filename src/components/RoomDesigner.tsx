@@ -60,7 +60,7 @@ const DEFAULT_WINDOW_SILL_HEIGHT = 900; // 90cm in mm
 
 // Define canvas dimensions in millimeters (10m x 8m)
 const CANVAS_WIDTH_MM = 10000; // 10 meters in mm
-const CANVAS_HEIGHT_MM = 8000; // 8 meters in mm
+const CANVAS_HEIGHT_MM = 8500; // 8 meters in mm
 
 const RoomDesigner: React.FC = () => {
   const [points, setPoints] = useState<Point[]>([]);
